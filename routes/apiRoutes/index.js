@@ -1,9 +1,8 @@
 const router = require('express').Router();
+const userRoutes = require('./userRoutes');
 
 // we have \api prepended to each route
 
-router.get('/', (_req, res) => {
-  res.send('Hello');
-});
+router.use('/users', userRoutes);
 
 module.exports = router;
