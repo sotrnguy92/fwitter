@@ -1,0 +1,16 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+//        If there is a rule you don't want to use you can "paste the rule":0  and this will disable rule
+    }
+}
